@@ -1,0 +1,29 @@
+# JOE state file v1.0
+search
+done
+macros
+done
+files
+	"/home/bml/.git/MERGE_MSG\n"
+done
+find
+done
+replace
+done
+run
+done
+build
+done
+grep
+done
+cmd
+done
+math
+done
+yank
+	":q"
+	"q"
+done
+file_pos
+	3 "/home/bml/.git/MERGE_MSG"
+done
