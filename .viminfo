@@ -8,8 +8,8 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:q
 :x
+:q
 :wq
 
 # Search String History (newest to oldest):
@@ -23,14 +23,17 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/.gitigonore
-'1  2  10  ~/149Project/CS149NetworkingSwarm/.gitignore
-'2  1  0  ~/.gitignore
-'3  1  0  ~/.gitignore_global
-'4  1  0  ~/zc_id
-'5  1  0  /etc/network/interfaces
+'0  2  0  ~/CS149NetworkingSwarm/.gitignore
+'1  1  0  ~/.gitigonore
+'2  2  10  ~/149Project/CS149NetworkingSwarm/.gitignore
+'3  1  0  ~/.gitignore
+'4  1  0  ~/.gitignore_global
+'5  1  0  ~/zc_id
+'6  1  0  /etc/network/interfaces
 
 # Jumplist (newest first):
+-'  2  0  ~/CS149NetworkingSwarm/.gitignore
+-'  1  0  ~/CS149NetworkingSwarm/.gitignore
 -'  1  0  ~/.gitigonore
 -'  2  10  ~/149Project/CS149NetworkingSwarm/.gitignore
 -'  1  0  ~/149Project/CS149NetworkingSwarm/.gitignore
@@ -128,9 +131,14 @@
 -'  1  0  ~/zc_id
 -'  1  0  /etc/network/interfaces
 -'  1  0  /etc/network/interfaces
--'  1  0  ~/zc_id
 
 # History of marks within files (newest to oldest):
+
+> ~/CS149NetworkingSwarm/.gitignore
+	"	2	0
+	^	2	0
+	.	2	0
+	+	2	0
 
 > ~/.gitigonore
 	"	1	0
