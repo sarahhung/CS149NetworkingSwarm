@@ -13,18 +13,24 @@ def main():
     xbee.at(frame='C', command='ID', parameter='\x99\x99')
     
     try:
-    
+    	file = open('rssi.csv', 'w')
+	i = 0
         while(1):
-    #       xbee.send('at', frame_id='A', command='DB')
+            # xbee.send('at', frame_id='A', command='DB')
             response = xbee.wait_read_frame()
-            print response
+            # print response
             lastRSSI = response.get('rssi')
-            print "RSSI = -%d dBm" % ord(lastRSSI)
-            
+	    print "i = %d" % i
+	    toWrite = str(i) + ',' + str(ord(lastRSSI)) + '\n'
+	    file.write(toWrite) 
+            print "RSSI = -%d dBm \n" % ord(lastRSSI)
+	    
+            i = i + 1
         
     except KeyboardInterrupt:
         pass
     finally:
+	file.close()
         ser.close()
     
 if __name__ == '__main__':

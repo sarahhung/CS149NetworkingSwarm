@@ -42,6 +42,7 @@ while True:
         while(1):
             print "Sending packet #",pktNum
             message = ''.join(['Hello #', repr(pktNum)] )
+            print message
             xbee.tx(dest_addr='\x20\x01', data = message)
             pktNum = pktNum + 1
             time.sleep(0.5)
