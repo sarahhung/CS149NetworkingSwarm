@@ -1,1 +1,0 @@
-/home/bml/zumy/start_scripts/odroid_init.sh
